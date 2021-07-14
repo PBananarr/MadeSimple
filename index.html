@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+
+  <title>WEBDESIGN Made Simple</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet"> -->
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./src/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./src/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./src/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./src/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./src/img/favicon./src/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./src/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./src/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./src/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./src/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./src/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./src/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/img/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="./src/css/styles.css">
+
+</head>
+
+<body>
+
+  <!-- ===NAVIGATIONSLEISTE=== -->
+
+  <nav class="nav-header">
+    <!--fixed-top-->
+
+    <div class="container" id="desktop-nav">
+
+      <div class="row">
+        <div class="col-06">
+
+          <a href="index.html" id="logo-header">
+            <img src="src/img/webdesign-logo.png" alt="Das Logo des Start-UP's simple made">
+          </a>
+
+          <ul>
+            <li class="nav-bg"><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- === NAVIGATIONSLEISTE (MOBIL) === -->
+
+    <div class="container" id="mobil-nav">
+
+      <div class="row">
+        <div class="col-06">
+
+          <a href="index.html" id="logo-header">
+            <img src="src/img/webdesign-logo.png" alt="Das Logo des Start-UP's simple made">
+          </a>
+
+          <div id="nav-mobil-action" class="clearfix">
+            <input class="checkbox" type="checkbox" id="hamburg">
+            <label for="hamburg" class="hamburg">
+            <span id="nav-mobil-button">&equiv;</span>
+            </label>
+
+            <div id="nav-mobil-list" class="clearfix">
+              <ul>
+                <li class="nav-bg"><a href="index.html">Startseite</a></li>
+                <li><a href="leistungen.html">Leistungen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- ===HINTERGRUND BANNER=== -->
+
+  <header id="banner-groß"></header>
+
+
+  <!-- === NEWSLETTER BEREICH === --->
+
+  <section id="newslBer">
+
+    <div class="container" id="newslBer-desktop">
+
+      <div class="row">
+
+        <div class="col-04">
+          <p id="newslBer-text">Melde dich jetzt beim Newsletter an und verpasse nichts mehr!</p>
+        </div>
+
+        <div class="col-02 clearfix">
+          <form action="index.html" method="post">
+
+            <label for="mail" class="screenreader">E-Mail:</label>
+            <input class="newslBer-input" id="mail" type="text" name="email" placeholder="Deine E-Mail Adresse"
+              pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+            <button class="bestätige-btn" type="submit" name="button">Jetzt <span>anmelden</span>!</button>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- === NEWSLETTER BEREICH - Tablet / Mobil === --->
+
+    <div class="container" id="newslBer-mobil">
+
+      <div class="row">
+
+        <div class="col-04">
+          <p id="newslBer-text">Melde dich jetzt beim Newsletter an und verpasse nichts mehr!</p>
+        </div>
+
+        <div class="col-02 clearfix">
+
+          <form action="index.html" method="post">
+            <fieldset id="newslBer-fieldset">
+              <legend id="newslBer-legend">Abonniere den Newsletter hier</legend>
+
+              <label for="mail" class="screenreader">E-Mail:</label>
+              <input class="newslBer-input" id="mail" type="text" name="email" placeholder="Deine E-Mail Adresse"
+                pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\u0022(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\u0022)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+              <button class="bestätige-btn" type="submit" name="button">Jetzt <span>anmelden</span>!</button>
+
+            </fieldset>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- === LOGO === -->
+
+  <div id="animiertes-logo">
+    <img src="./src/img/webdesign-logo-klein.png" alt="Logo Webdesign Made Simple">
+  </div>
+
+  <!-- === LEISTUNGEN - BEREICH === -->
+
+  <section id="leistungen-bereich">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-06">
+          <header class="intro-container">
+            <h1>Das bieten Wir.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse.
+            </p>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-03">
+          <article class="leistungen-teaser-box">
+            <h2>Leistungen #1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="leistungen.html#Leistungen1">Ansehen</a>
+          </article>
+        </div>
+
+        <div class="col-03">
+          <article class="leistungen-teaser-box">
+            <h2>Leistungen #2</h2>
+            <p>
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+               vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+                qui blandit praesent luptatum zzril delenit augue.
+            </p>
+            <a href="leistungen.html#Leistungen2">Ansehen</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-03">
+          <article class="leistungen-teaser-box">
+            <h2>Leistungen #3</h2>
+            <p>
+              Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+              lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+              in hendrerit in vulputate velit esse molestie consequat.
+            </p>
+            <a href="leistungen.html#Leistungen3">Ansehen</a>
+          </article>
+        </div>
+
+        <div class="col-03">
+          <article class="leistungen-teaser-box">
+            <h2>Leistungen #4</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip.
+            </p>
+            <a href="leistungen.html#Leistungen4">Ansehen</a>
+          </article>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- === VIDEO - BEREICH === -->
+
+  <section id="video-bereich">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-06">
+          <header class="intro-container">
+            <h1>Der Prozess</h1>
+            <p>
+              Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+              facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+              lobortis nisl ut aliquip ex ea commodo consequat.
+            </p>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-06">
+            <video src="src/movie/webdesign made simple trailer.mp4" controls>
+              <p>
+                Das Video kann vorrübergehend nicht wiedergegeben werden.<br>
+                Bitte überprüfe deine Internetverbindung.
+              </p>
+            </video>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <!-- === SERVICE - BEREICH === -->
+
+    <section id="service-bereich">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-06">
+            <header class="intro-container">
+              <h1>Unsere Services</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </header>
+          </div>
+
+        <div class="row">
+          <div class="col-02">
+            <article class="service-box">
+              <div id="fair-icon" class="service-icons drehen"></div>
+              <h2>Faire Preise</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+          </div>
+
+          <div class="col-02">
+            <article class="service-box">
+              <div id="kurz-icon" class="service-icons drehen"></div>
+              <h2>kurze Wartezeiten</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+          </div>
+
+          <div class="col-02">
+            <article class="service-box">
+              <div id="mordern-icon" class="service-icons drehen"></div>
+              <h2>mordernes Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </article>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+
+      <!-- === ÜBER-UNS-BEREICH === -->
+    <section id="ueber-uns-bereich">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-06">
+            <header class="intro-container">
+              <h1>Über Uns</h1>
+            </header>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-06">
+            <article class="clearfix">
+              <img src="./src/img/webdesign-logo-vertical.png" alt="Ein vertikales Logo der Firma Webdesign Made-Simple">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum.
+              </p>
+
+              <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum
+                dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+              </p>
+
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+              </p>
+            </article>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+      <!-- === FOOTER-BEREICH === -->
+
+    <footer id="footer-bereich">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-06">
+
+            <div id="footer-nav-gesamt">
+              <div class="footer-nav-left">
+                <a href="index.html" class="footer-img">
+                  <img src="./src/img/webdesign-logo-klein.png" alt="Ein kleines rundes Logo der Firma Made Simple.">
+                </a>
+              </div>
+
+              <div id="footer-nav-middle">
+                <h1>LEGEN WIR LOS</h1>
+                <a href="#">webdesign-madesimple@xxx.de</a><br>
+                <a href="tel:+4912345678">+49 1234 5678</a><br>
+                <h2>Webdesign Made Simple</h2>
+                <p>
+                  Musterstrasse 86A
+                  <br>
+                  01234 Heftighausen - Bayern
+                </p>
+              </div>
+
+              <div id="footer-nav-right">
+                <h1>RECHTLICHES</h1>
+                <a href="impressum.html">Impressum</a><br>
+                <span>&copy; 2021, Pierre Bretschneider</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+</body>
+
+</html>
